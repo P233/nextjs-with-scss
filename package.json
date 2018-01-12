@@ -1,8 +1,8 @@
 {
   "scripts": {
     "dev": "next -p ${PORT:-8080}",
-    "build": "next build",
-    "start": "next start -p ${PORT:-8080}"
+    "build": "NODE_ENV=production next build",
+    "start": "NODE_ENV=production next start -p ${PORT:-8080}"
   },
   "dependencies": {
     "bulma": "^0.6.2",

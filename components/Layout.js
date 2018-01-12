@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import baseStyles from 'styles/style.scss';
+import Head from 'next/head'
+import baseStyles from 'styles/style.scss'
 
 export default props => (
   <div>
@@ -13,4 +13,4 @@ export default props => (
       {baseStyles}
     </style>
   </div>
-);
+)

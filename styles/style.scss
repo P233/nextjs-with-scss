@@ -2,3 +2,10 @@
 @import 'styles/generic.box-sizing';
 @import 'styles/base.reset';
 @import 'styles/objects.typography';
+@import 'node_modules/bulma/sass/utilities/initial-variables';
+
+// Override variables.
+$primary: rgb(241, 93, 167);
+
+@import 'node_modules/bulma/bulma.sass';
+@import 'styles/base.layout';

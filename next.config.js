@@ -12,8 +12,8 @@ module.exports = {
         'babel-loader',
         'styled-jsx-css-loader',
       ],
-    });
+    })
 
-    return config;
+    return config
   },
-};
+}

@@ -1,15 +1,19 @@
 {
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "dev": "next -p ${PORT:-8080}",
+    "build": "NODE_ENV=production next build",
+    "start": "NODE_ENV=production next start -p ${PORT:-8080}"
   },
   "dependencies": {
-    "babel-plugin-module-resolver": "^3.0.0",
+    "bulma": "^0.6.2",
     "next": "^4.2.0",
-    "node-sass": "^4.7.2",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.0.0",
+    "node-sass": "^4.7.2",
+    "styled-jsx": "^2.2.1",
     "styled-jsx-css-loader": "^0.3.0",
     "styled-jsx-plugin-sass": "^0.2.2"
   }
